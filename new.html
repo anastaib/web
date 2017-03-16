@@ -1,0 +1,120 @@
+<!DOCYTYPE html>
+<meta charset="UTF-8">
+
+<html>
+	<head>
+		<title>minimalism</title>
+		<link rel="stylesheet" type="text/css" href="styles/new.css">
+		<h1>MODE</h1>
+		
+	</head>
+	<body>
+		<div id="corps">
+			<div id="menu">
+				<img src="images/MinimalBackground.jpg">
+				
+					<ul>
+						<li><a href="homme.html"class="active">Homme</a>
+							<ul>
+								<li><a href="#">Pantalon</a></li>
+								<li><a href="#">Veste</a></li>
+								<li><a href="#">T-shirt</a></li>
+								<li><a href="#">Pull</a></li>
+								<li><a href="#">Chaussure</a></li>
+							</ul>
+						</li>
+						<li><a href="#"class="active">Femme</a>
+							<ul>
+								<li><a href="#">Pantalon</a></li>
+								<li><a href="#">Robe</a></li>
+								<li><a href="#">Chemise</a></li>
+								<li><a href="#">Pull</a></li>
+								<li><a href="#">Chaussure</a></li>
+
+							</ul>
+						</li>
+						<li><a href="#"class="active">Enfant</a>
+							<ul>
+								<li><a href="#">Pantalon</a></li>
+								<li><a href="#">Chaussure</a></li>
+								<li><a href="#">Pull</a></li>
+								<li><a href="#">Chemise</a></li>
+								<li><a href="#">Accessoire</a></li>
+							</ul>
+						</li>
+						<li><a href="#"class="active">Sport</a>
+							<ul>
+								<li><a href="#">Maillot</a></li>
+								<li><a href="#">Basket</a></li>
+								<li><a href="#">Chaussure</a></li>
+								<li><a href="#">Homme</a></li>
+
+							</ul>
+						</li>
+						<li><a href="#"class="active">Accessoire</a>
+							<ul>
+								<li><a href="#">Bijoux</a></li>
+								<li><a href="#">Sac</a></li>
+								<li><a href="#">Cadaeaux</a></li>
+								<li><a href="#">Homme</a></li>
+							</ul>
+						</li>
+						<li><a href="#"class="active">Mon compte</a></li>
+					</ul>					
+			</div>
+			<center>
+			<div id ="photo">
+				<img src="images/imagefemme/1.jpg" name="slide"/>
+			<script>
+			
+
+				var image1=new Image()
+				image1.src="images/imagefemme/1.jpg"
+				var image2=new Image()
+				image2.src="images/imagefemme/2.jpg"
+		
+
+				var step=1
+				function slideit()
+				{
+					document.images.slide.src=eval("image"+step+".src")
+					if(step<2)
+						step++
+					else
+						step=1
+					setTimeout("slideit()",2500)
+				}
+				slideit()
+			</script>
+
+			<footer>
+				
+		
+			<div id="share-buttons">
+				<a href="http://www.facebook.com/sharer.php?u=https://simplesharebuttons.com" target="_blank">
+        			<img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
+				</a>
+				<a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https://simplesharebuttons.com" target="_blank">
+        			<img src="https://simplesharebuttons.com/images/somacro/linkedin.png" alt="LinkedIn" />
+				</a>
+				<a href="mailto:?Subject=Simple Share Buttons&amp;Body=I%20saw%20this%20and%20thought%20of%20you!%20 https://simplesharebuttons.com">
+        			<img src="https://simplesharebuttons.com/images/somacro/email.png" alt="Email" />
+				</a>		   	
+			</div>
+			<div id="partenaire">
+				<a href="http://www.adidas.fr/">
+					<img src="images/adidas.png">
+				</a>
+				<a href="http://www.lacost.fr/">
+					<img src="images/lacoste.jpg">
+				</a>
+				<a href="http://www.nike.fr/"></a>
+
+				</footer>
+	
+	</body>	
+
+</html>
+
+
+
